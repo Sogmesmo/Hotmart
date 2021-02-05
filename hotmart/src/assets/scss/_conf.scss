@@ -13,7 +13,7 @@ $MOBILE-LAND: "only screen and (min-width: 480px)";
 //mixins
 @mixin margin-page {
     width: calc(100% - 40px);
-    margin: 0 auto;
+ margin: 0 auto;   
 
     @media #{$DESK} {
         max-width: 1000px;

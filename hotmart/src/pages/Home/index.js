@@ -1,22 +1,19 @@
 import React from 'react';
+import Slideshow from '../../components/Slide/index.js';
 
-import Entrevista from '../../assets/imgs/about/entrevista.jpg';
-import Tela from '../../assets/imgs/about/tela.jpg';
-import Diviertete from '../../assets/imgs/about/diviertete.jpg';
-import Pride from '../../assets/imgs/about/pride.jpg';
-import Cofe from '../../assets/imgs/about/cofe.jpg';
-import Niver from '../../assets/imgs/about/niver.jpg';
+
+import Imagemap from '../../assets/imgs/map.svg'
 
 const Home = () => {
     return (
-        <article>
-            <div  class="about__container">
+    <article>
+        <div  class="about__container">
             <div  className="about__title">
                 <h2 class="title">
-        Existimos para permitir que
-        as pessoas vivam de suas 
-        paixões!
-      </h2>
+                        Existimos para permitir que
+                        as pessoas vivam de suas 
+                        paixões!
+                </h2>
             </div>
             <div className="about__body">
                 <p> A Hotmart é uma empresa que promove empreendedorismo e educação por meio da criação e 
@@ -35,93 +32,30 @@ const Home = () => {
                     parte dessa história!
                 </p>
             </div>
-            <div class="about__photos">
-            <div class="image-slide aspect-ratio--2.2:1">
-            <div class="image-slide__items" >
-                <div class="image-slide__item">
-                    <div class="card-image-caption">
-                        <div class="card-image-caption__image">
-                            <picture class="aspect-ratio--2.2:1 border-radius--rounded image">
-                                <img src={Entrevista}  alt="Gravação em um de nossos estúdios" class=" lazyloaded" />
-                            </picture>
-                                    </div>
-                                    <div class="card-image-caption__wrapper">
-                                        <div class="card-image-caption__caption">
-                        Gravação em um de nossos estúdios
+            <Slideshow/>
+            <div class="offices">
+                <div class="offices__container">
+                    <div class="offices__body">
+                        <p>A Hotmart está presente com escritórios no <strong>Brasil</strong>, 
+                <strong>Estados Unidos</strong>, <strong>México</strong>, <strong>Colômbia</strong>,
+                <strong>Espanha</strong> e <strong>Holanda</strong>,
+                além de Troopers, que é como chamamos nossos colaboradores, na <strong>França</strong> 
+                e na <strong>Inglaterra</strong>.
+                </p>
+                </div> 
+                   <div class="offices__map" >      
+                    <img src={Imagemap} alt="Lugares"/>                           
+                   </div>
                 </div>
-                </div>
-                </div>
-                </div>
-                <div class="image-slide__item" >
-                    <div class="card-image-caption">
-                        <div class="card-image-caption__image">
-                            <picture class="aspect-ratio--2.2:1 border-radius--rounded image">
-                                <img src={Diviertete} alt="Divirta-se: um dos nossos mantras" class=" lazyloaded"/>
-                                    </picture>
-                                    </div> 
-                                    <div class="card-image-caption__wrapper">
-                                        <div class="card-image-caption__caption">
-                        Divirta-se: um dos nossos mantras
-                </div>
-                </div>
-                </div>
-                </div>
-                <div class="image-slide__item image-slide__item--show">
-                    <div class="card-image-caption">
-                        <div class="card-image-caption__image">
-                            <picture class="aspect-ratio--2.2:1 border-radius--rounded image">
-                                <img src={Tela}  alt="Hack Week: codar pode ser divertido (e apaixonante)!" class=" lazyloaded"/>
-                                    </picture>
-                                    </div> 
-                                    <div class="card-image-caption__wrapper">
-                                        <div class="card-image-caption__caption">
-                         Hack Week: codar pode ser divertido (e apaixonante)!
-                </div>
-                </div>
-                </div>
-                </div>
-                <div class="image-slide__item">
-                    <div class="card-image-caption">
-                        <div class="card-image-caption__image">
-                            <picture class="aspect-ratio--2.2:1 border-radius--rounded image">
-                                <img src={Pride}  alt="Dia do Orgulho LGBTQIA+: na Hotmart todo mundo tem voz!" class=" lazyloaded"/>
-                                </picture>
-                                </div> <div class="card-image-caption__wrapper" ><div class="card-image-caption__caption" >
-                         Dia do Orgulho LGBTQIA+: na Hotmart todo mundo tem voz!
-                </div>
-                </div>
-                </div>
-                </div>
-                <div class="image-slide__item">
-                    <div class="card-image-caption">
-                        <div class="card-image-caption__image">
-                            <picture class="aspect-ratio--2.2:1 border-radius--rounded image">
-                                <img src={Cofe}  alt="Missão Suporte: buscando talentos para atender nossos clientes" class=" lazyloaded"/>
-                                </picture>
-                                </div> 
-                                <div class="card-image-caption__wrapper">
-                                    <div class="card-image-caption__caption">
-                         Missão Suporte: buscando talentos para atender nossos clientes
-                </div>
-                </div>
-                </div>
-                </div>
-                <div class="image-slide__item">
-                    <div class="card-image-caption" >
-                        <div class="card-image-caption__image">
-                            <picture class="aspect-ratio--2.2:1 border-radius--rounded image">
-                            <img src={Niver} alt="Aniversariantes do Mês: sempre um momento muito especial" class=" lazyloaded"/>
-                            </picture>
-                            </div> <div class="card-image-caption__wrapper" ><div class="card-image-caption__caption">
-                         Aniversariantes do Mês: sempre um momento muito especial
-                </div>
-                </div>
-                </div>
-                </div>
-                </div>
-                </div>   
-            </div>
-            </div>
+             </div>
+                 <div class="carousel__container"> 
+                             <div class="carousel__title">
+                                 <h3 class="title">
+                                     Como é trabalhar na Hotmart
+                                </h3>
+                            </div> 
+                        </div>
+         </div>
     </article>
     )
 }
