@@ -1,0 +1,11 @@
+//confs e global
+@import './conf';
+@import './global.scss';
+
+//components
+@import '../../components/Header/style.scss';
+@import '../../components/Footer/style.scss';
+
+//pages
+@import '../../pages/Home/style.scss';
+

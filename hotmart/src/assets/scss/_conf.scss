@@ -1,0 +1,21 @@
+
+
+//cores
+$ORANGE: #f04e23;
+$GREY: #353a40;
+
+//media
+$DESK: "only screen and (min-width: 1280px)";
+$TABLET-LAND: "only screen and (min-width: 975px)";
+$TABLET: "only screen and (min-width: 600px)";
+$MOBILE-LAND: "only screen and (min-width: 480px)";
+
+//mixins
+@mixin margin-page {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+
+    @media #{$DESK} {
+        max-width: 1000px;
+    }
+}
