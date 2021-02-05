@@ -13,8 +13,19 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     color:  $GREY;
+    -webkit-tap-highlight-color: transparent;
+    font-size: var(--ms2);
+    font-weight: 400;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    background: var(--white);
+    overflow-x: hidden;
 }
 
 .App {
     @include margin-page;
 }
+
