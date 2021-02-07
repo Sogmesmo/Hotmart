@@ -1,0 +1,14 @@
+.footer__area-3 {
+    width: 100%;
+    grid-area: footer__area-3;
+    border-top: 1px solid #dfe2e6;
+    padding-top: calc(var(--ms1)*4);
+}
+.footer__copyright {
+    grid-area: footer__copyright;
+    color: #6b7480;;
+}
+:root {
+    
+    --ms-1: 10px;
+}

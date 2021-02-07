@@ -94,8 +94,8 @@ p {
     font-size: 25.888px;
 }
 .carousel__container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     background: #f0f3f7;
@@ -106,12 +106,85 @@ p {
     max-width: calc(var(--ms1)*40);
 }
 .title{
+    margin-left: 20px;
+    margin-top: 20px;
     font-size: var(--ms6);
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 0;
 }
 
+  //fotos
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+.swiper-slide-swiper-slide-active {
+    margin-top: 10%;
+    margin-left: 70%;
+    margin-right: 28px;
+    flex-shrink: 8;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+
+
+.card-trooper-social-proof__avatar{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 14px;;
+    overflow: hidden;
+    
+}
+.card-trooper-social-proof__wrapper {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 14px;
+}
+.card-trooper-social-proof__name {
+    font-size: 16px;;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 2px #353a40;
+}
+.card-trooper-social-proof{
+    
+}
+.card-trooper-social-proof__job-role, .card-trooper-social-proof__name {
+    color: #fff;
+    text-shadow: 1px 1px 2px var #353a40;
+}
+.card-trooper-social-proof__image {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.image {
+    display: block;
+    position: relative;
+    z-index: 1;  
+}
+
+.card-trooper-social-proof__body{
+    padding-left: 14px;
+    padding-right: 14px;
+}
 
 :root {
     --ms-3: 6px;

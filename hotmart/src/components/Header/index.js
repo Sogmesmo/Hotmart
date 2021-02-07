@@ -9,21 +9,15 @@ const Header = () => {
       
     <div className="header">    
       <div class="header__primary">
-        <div class="header__primary-container">
           <div class="header__logo">
-          <a href="/jobs/pt-BR"  class="nuxt-link-exact-active nuxt-link-active">
-          <span class="header__logo-image">
+            <span class="header__logo-image">
                 <picture class="image image--transparent">
                   <img src={Logo} alt="Hotmart"/>
-                    </picture>
-                    </span> 
-                     <span class="header__logo-label">Jobs</span>
-            </a>
-              
-                  
-                  </div>
-                  </div>
-                  </div>
+                </picture>
+            </span> 
+            <span class="header__logo-label"> <p> | </p>    Jobs</span>
+          </div>
+     </div>
                                 
     <div class="hero">
       <div  class="about__container">
