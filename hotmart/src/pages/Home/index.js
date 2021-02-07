@@ -7,9 +7,9 @@ import Imagemap from '../../assets/imgs/map.svg'
 const Home = () => {
     return (
     <article>
-        <div  class="about__container">
+        
             <div  className="about__title">
-                <h2 class="title">
+                <h2 class="titl">
                         Existimos para permitir que
                         as pessoas vivam de suas 
                         paixões!
@@ -55,7 +55,6 @@ const Home = () => {
                                 </h3>
                             </div> 
                         </div>
-         </div>
     </article>
     )
 }
