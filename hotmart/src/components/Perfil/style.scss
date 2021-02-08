@@ -1,100 +1,4 @@
 
-
-div {
-    display: block;
-     
-    
-} 
-.about__container {
-    width: 100%;
-    max-width: $DESK;
-    
-    
-    
-}
-@media (min-width: 768px){
-.about__body {
-    column-count: 2;
-    grid-column-gap: calc(var(--ms1)*2);
-    -moz-column-gap: calc(var(--ms1)*2);
-    column-gap: calc(var(--ms1)*2);
-    line-height: 1.5; 
-    font-size: var(--ms3);
-      
-}
-
-}
-.about__body {
-    margin-bottom: calc(var(--ms1)*4);
-      
-   
-}
-
-.about__title {
-    margin-bottom: calc(var(--ms1)*4);
-    max-width: calc(var(--ms1)*42);
-    
-}
-.titl {
-        font-size: 47.12263200000001px;
-        font-weight: 400;
-        line-height: 1.2;
-        margin-bottom: 0;
-}
-      
-
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 1.1em;
-}
-
-// Mapa
-@media (min-width: 768px){
-    .offices{
-    padding-right: calc(var(--ms1)*2);
-    padding-left: calc(var(--ms1)*2);
-}
-}
-.offices {
-    margin-top: 100px;
-    padding-left: var(--ms1);
-    padding-right: var(--ms1);
-    margin-bottom: calc(var(--ms1)*6);
-}
-
-@media (min-width: 768px){
-.offices a, p {
-    line-height: 1.6; 
-}
-}
-.offices p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.offices__body {
-    text-align: center;
-    margin-bottom: calc(var(16px)*2);
-    font-size: 25.888px;
-}
-
-
 //fotos
 .carousel__container {
     width: 100%;
@@ -178,14 +82,14 @@ p {
     color: #fff;
     text-shadow: 1px 1px 2px var #353a40;
 }
-.card-trooper-social-proof__images {
+.card-trooper-social-proof__image {
     position: relative;
     z-index: 1;
     overflow: hidden;
     width: 375px;
     height: 375px;
 }
-.images {
+.image {
     border-radius: 5px;
     display: block;
     position: relative;
@@ -193,7 +97,7 @@ p {
     width: 375px;
     height: 375px;
 }
-.images img {
+.image img {
     margin: 10px;
     width: 375px;
     height: 375px;
@@ -205,7 +109,6 @@ p {
     padding-right: 14px;
 }
 
-  
 :root {
     --ms-3: 6px;
     --ms-2: 8px;

@@ -68,8 +68,8 @@ const Home = () => {
                                                          Programadora Jr - Brasil
                                                         </div>
                                                     </div>
-                                                    <div class="card-trooper-social-proof__image">
-                                                        <div class="image">
+                                                    <div class="card-trooper-social-proof__images">
+                                                        <div class="images">
                                                             <img src={Me}  alt="Lara Rezende" />
                                                             </div>
                                                     </div></div>
